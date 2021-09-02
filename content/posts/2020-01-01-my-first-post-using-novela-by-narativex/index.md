@@ -50,18 +50,18 @@ Sau khi đã có homebrew thì bạn có thể sử dụng nó để install cá
 
 Hiện tại mình đang làm việc chủ yếu với javascript nên các extendion dưới đây đã đi theo mình trong một thời gian dài. Các bạn có thể cân nhắc để cài đặt tuỳ theo nhu cầu sử dụng:
 
-* Theme: **[One Dark Pro](https://marketplace.visualstudio.com/items?itemName=zhuangtongfa.Material-theme)**
+* Theme: **[One Dark Pro](https://marketplace.visualstudio.com/items?itemName=zhuangtongfa.Material-theme)**: 
 
   Với các fan cuồng Dark Mode như mình thì **[One Dark Pro](https://marketplace.visualstudio.com/items?itemName=zhuangtongfa.Material-theme)** có thể coi là phổ biến nhất hiện tại với hơn 3 triệu lượt tải trên market place của VSCode
-* Icon theme: **[Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)**
+* Icon theme: **[Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)**: 
 
   Tình cờ phát hiện ra em nó trong một lần địa máy của ông anh trong team. Chỉ một thay đổi nhỏ trong icon của các file dựa vào đuôi file nhưng nó sẽ giúp bạn rất nhiều khi làm việc với các dự án lớn. Nhanh chóng phân biệt/khoanh vùng được file mình cần sử dụng.
-* Autocomplete AI: **[Visual Studio IntelliCode](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode)**
+* Autocomplete AI: **[Visual Studio IntelliCode](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode)**: 
 
   Hàng chính chủ từ Microsoft nên mọi người có thể yên tâm về chất lượng. Nó sẽ hỗ trợ việc suggestion một cách mạnh mẽ hơn rất nhiều so với trình autocomplete mặc định. Hiện nay đã xuất hiện thêm 1 extension mới là **[Tabnine](https://marketplace.visualstudio.com/items?itemName=TabNine.tabnine-vscode)**  cơ mà nó ngốn ram kinh khủng khiếp cộng thêm trả phí nên cũng chưa được phổ biến.
-* Remote editor: **[Remote - SSH](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh)**
+* Remote editor: **[Remote - SSH](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh)**: 
 
   Trong trường hợp bạn cần edit các file trực tiếp trên server thì không nên bỏ qua ext này.  Qua rồi cái thời phải \`ssh\`  vào server rồi nhìn chằm chằm vào cái màn hình nano/vim để sửa từng dòng code. Ext này sẽ giúp bạn connect trực tiếp đến server. Đánh đổi bằng một chút trễ nhưng nó mang lại cảm giác quen thuộc như khi chỉnh sửa các file trên chính máy của bạn
-* Source control: **[GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens), [Git Blame](https://marketplace.visualstudio.com/items?itemName=waderyan.gitblame)**
+* Source control: **[GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens), [Git Blame](https://marketplace.visualstudio.com/items?itemName=waderyan.gitblame)**: 
 
   Nếu dự án của bạn sử dụng Git thay vì svn để quản lý thì đây là 2 ext tuyệt vời hỗ trợ rất nhiều trong quá trình truy tìm cũng như giải thích nguyên nhân của các line code vi diệu. Vì một môi trương làm việc thoải mái nhất, hãy cài sớm 2 ext này để nhanh chóng truy tìm thủ phạm đồng thời tránh đi các pha tự vả vào mặt của mình.
