@@ -14,17 +14,6 @@ import {
   getBreakpointFromTheme,
 } from "@utils";
 
-const siteQuery = graphql`
-  {
-    sitePlugin(name: { eq: "@narative/gatsby-theme-novela" }) {
-      pluginOptions {
-        rootPath
-        basePath
-      }
-    }
-  }
-`;
-
 const DarkModeToggle: React.FC<{}> = () => {
   const [colorMode, setColorMode] = useColorMode();
   const isDark = colorMode === `dark`;
@@ -84,11 +73,10 @@ const SharePageButton: React.FC<{}> = () => {
 const NavigationHeader: React.FC<{}> = () => {
   const [showBackArrow, setShowBackArrow] = useState<boolean>(false);
   const [previousPath, setPreviousPath] = useState<string>("/");
-  const { sitePlugin } = useStaticQuery(siteQuery);
 
   const [colorMode] = useColorMode();
   const fill = colorMode === "dark" ? "#fff" : "#000";
-  const { rootPath, basePath } = sitePlugin.pluginOptions;
+  const { rootPath, basePath } = { rootPath: '/', basePath: '/'};
 
   useEffect(() => {
     const { width } = getWindowDimensions();
